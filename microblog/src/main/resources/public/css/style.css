@@ -1,0 +1,34 @@
+.bg-dark2 {
+  background-color: #1f2225;
+}
+
+.custom-scrollbar-js,
+.custom-scrollbar-css {
+  height: 480px;
+}
+
+/* Custom Scrollbar using CSS */
+.custom-scrollbar-css {
+  overflow-y: scroll;
+}
+
+/* scrollbar width */
+.custom-scrollbar-css::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* scrollbar track */
+.custom-scrollbar-css::-webkit-scrollbar-track {
+  background: #dc3545;
+}
+
+/* scrollbar handle */
+.custom-scrollbar-css::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background-color: #00d2ff;
+  background-image: linear-gradient(to top, #eee 0%, #eee 100%);
+}
+
+.google-font{
+    font-family: 'Nunito Sans', sans-serif;
+}
